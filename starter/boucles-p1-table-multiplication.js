@@ -13,9 +13,9 @@ N.B. Faites-le de deux manières différentes :
 */
 
 // avec FOR
-let iPRMulti = parseInt(prompt("Entrez nombre dont vous souhaité la table de multiplication"));
+let iPRMulti = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
 console.log(`Voici les 10 premières valeurs de la table de multiplication par ${iPRMulti}`)
-for (let iMulti = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?")); iMulti <= 10; iMulti++){
+for (let iMulti = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?")); iMulti <= iPRMulti; iMulti++){
     console.log(`${iMulti} * ${iPRMulti} = ${iMulti*iPRMulti}`)
 }
 
