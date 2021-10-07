@@ -19,4 +19,10 @@
     - un titre : "Voici les 10 premières valeurs de la table de multiplication par …"
     - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
 */
-
+let iMulti = 0;
+let iPRMulti = parseInt(prompt("Entrez nombre dont vous souhaité la table de multiplication"));
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${iPRMulti}`)
+while (iMulti < 10){
+    iMulti++;
+    console.log(`${iMulti} * ${iPRMulti} = ${iMulti*iPRMulti}`)
+}
