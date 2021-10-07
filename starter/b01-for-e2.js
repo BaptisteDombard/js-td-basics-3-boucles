@@ -26,5 +26,7 @@ EXEMPLE 2 :
   - C'est le tour numéro 10
   - Le manège s'arrête
 */
-
+for(let iTour =1; iTour < 11;iTour++){
+    console.log(`C'est le tour numéro ${iTour}`)
+}
 

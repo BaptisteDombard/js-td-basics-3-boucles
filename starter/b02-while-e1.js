@@ -17,4 +17,8 @@ Affichez
 - les nombres de 1 à 5 à l'aide d'une boucle WHILE
 - Fin du programme
 */
-
+let iNombre = 0;
+while (iNombre <5){
+    iNombre =iNombre+1;
+    console.log(iNombre);
+}

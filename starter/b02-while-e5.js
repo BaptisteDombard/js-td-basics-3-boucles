@@ -19,6 +19,10 @@
 */
 
 // code de base sans le bonus
+let iMessage = parseInt(prompt("Entrez une lettre"));
+while (iMessage = "X"){
+    iMessage
+}
 
 
 

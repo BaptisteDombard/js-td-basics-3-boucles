@@ -17,4 +17,9 @@
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
 */
-
+for (let iDepart = 3;iDepart > 0;iDepart = iDepart-1){
+    console.log(iDepart);
+    if (iDepart === 1){
+        console.log("Partez")
+    }
+}
