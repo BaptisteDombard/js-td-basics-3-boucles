@@ -14,3 +14,10 @@
 4. Affichez ensuite le résultat avec, pour chacune des tables, un titre
 	"Voici les … premières valeurs de la table de multiplication par …" 
 */
+const iX = parseInt(prompt("Combien de valeurs voulez vous ?"))
+const iN = parseInt(prompt("Combien de tables voulez vous ?"))
+for (let i = 2;i <= iN+1;i++){
+   for (let j = iN;j <= iX;){
+       console.log(j);
+   }
+}
