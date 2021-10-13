@@ -17,13 +17,14 @@ RAPPELS - AIDES :
 */
 for (let iNombre = 1; iNombre <=100; iNombre++){
     if (iNombre % 3 === 0){
-        iNombre = "Fizz";
+        console.log("Fizz");
     }
     else if (iNombre % 5 === 0 && iNombre % 3 !== 0){
-        iNombre = "Buzz";
+        console.log("Buzz");
     }
     else if (iNombre % 5 === 0 && iNombre % 3 === 0){
-        iNombre = "FizzBuzz"
+        console.log("FizzBuzz");
     }
+    else
     console.log(iNombre)
 }
