@@ -17,7 +17,7 @@
 const iX = parseInt(prompt("Combien de valeurs voulez vous ?"))
 const iN = parseInt(prompt("Combien de tables voulez vous ?"))
 for (let i = 2;i <= iN+1;i++){
-   for (let j = iN;j <= iX;){
-       console.log(j);
+   for (let j = 1;j <= iX;j++){
+       console.log(i*j);
    }
 }
